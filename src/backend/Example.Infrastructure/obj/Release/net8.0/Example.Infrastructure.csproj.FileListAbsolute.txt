@@ -1,0 +1,13 @@
+/mnt/d/progs/IndigoSoft.NetCoreApiExample/src/backend/Example.Infrastructure/bin/Release/net8.0/Example.Infrastructure.deps.json
+/mnt/d/progs/IndigoSoft.NetCoreApiExample/src/backend/Example.Infrastructure/bin/Release/net8.0/Example.Infrastructure.dll
+/mnt/d/progs/IndigoSoft.NetCoreApiExample/src/backend/Example.Infrastructure/bin/Release/net8.0/Example.Infrastructure.pdb
+/mnt/d/progs/IndigoSoft.NetCoreApiExample/src/backend/Example.Infrastructure/obj/Release/net8.0/Example.Infrastructure.csproj.AssemblyReference.cache
+/mnt/d/progs/IndigoSoft.NetCoreApiExample/src/backend/Example.Infrastructure/obj/Release/net8.0/Example.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/mnt/d/progs/IndigoSoft.NetCoreApiExample/src/backend/Example.Infrastructure/obj/Release/net8.0/Example.Infrastructure.AssemblyInfoInputs.cache
+/mnt/d/progs/IndigoSoft.NetCoreApiExample/src/backend/Example.Infrastructure/obj/Release/net8.0/Example.Infrastructure.AssemblyInfo.cs
+/mnt/d/progs/IndigoSoft.NetCoreApiExample/src/backend/Example.Infrastructure/obj/Release/net8.0/Example.Infrastructure.csproj.CoreCompileInputs.cache
+/mnt/d/progs/IndigoSoft.NetCoreApiExample/src/backend/Example.Infrastructure/obj/Release/net8.0/Example.Infrastructure.sourcelink.json
+/mnt/d/progs/IndigoSoft.NetCoreApiExample/src/backend/Example.Infrastructure/obj/Release/net8.0/Example.Infrastructure.dll
+/mnt/d/progs/IndigoSoft.NetCoreApiExample/src/backend/Example.Infrastructure/obj/Release/net8.0/refint/Example.Infrastructure.dll
+/mnt/d/progs/IndigoSoft.NetCoreApiExample/src/backend/Example.Infrastructure/obj/Release/net8.0/Example.Infrastructure.pdb
+/mnt/d/progs/IndigoSoft.NetCoreApiExample/src/backend/Example.Infrastructure/obj/Release/net8.0/ref/Example.Infrastructure.dll

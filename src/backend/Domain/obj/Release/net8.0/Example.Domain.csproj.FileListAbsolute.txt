@@ -1,0 +1,13 @@
+/mnt/d/progs/IndigoSoft.NetCoreApiExample/src/backend/Domain/bin/Release/net8.0/Example.Domain.deps.json
+/mnt/d/progs/IndigoSoft.NetCoreApiExample/src/backend/Domain/bin/Release/net8.0/Example.Domain.dll
+/mnt/d/progs/IndigoSoft.NetCoreApiExample/src/backend/Domain/bin/Release/net8.0/Example.Domain.pdb
+/mnt/d/progs/IndigoSoft.NetCoreApiExample/src/backend/Domain/obj/Release/net8.0/Example.Domain.csproj.AssemblyReference.cache
+/mnt/d/progs/IndigoSoft.NetCoreApiExample/src/backend/Domain/obj/Release/net8.0/Example.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/mnt/d/progs/IndigoSoft.NetCoreApiExample/src/backend/Domain/obj/Release/net8.0/Example.Domain.AssemblyInfoInputs.cache
+/mnt/d/progs/IndigoSoft.NetCoreApiExample/src/backend/Domain/obj/Release/net8.0/Example.Domain.AssemblyInfo.cs
+/mnt/d/progs/IndigoSoft.NetCoreApiExample/src/backend/Domain/obj/Release/net8.0/Example.Domain.csproj.CoreCompileInputs.cache
+/mnt/d/progs/IndigoSoft.NetCoreApiExample/src/backend/Domain/obj/Release/net8.0/Example.Domain.sourcelink.json
+/mnt/d/progs/IndigoSoft.NetCoreApiExample/src/backend/Domain/obj/Release/net8.0/Example.Domain.dll
+/mnt/d/progs/IndigoSoft.NetCoreApiExample/src/backend/Domain/obj/Release/net8.0/refint/Example.Domain.dll
+/mnt/d/progs/IndigoSoft.NetCoreApiExample/src/backend/Domain/obj/Release/net8.0/Example.Domain.pdb
+/mnt/d/progs/IndigoSoft.NetCoreApiExample/src/backend/Domain/obj/Release/net8.0/ref/Example.Domain.dll

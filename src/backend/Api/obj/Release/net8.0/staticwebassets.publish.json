@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "rHQHxt9sZ4h/SnoKcfaLthC/H2hMyYVz/Dx4kAd/97s=",
+  "Source": "Example.Api",
+  "BasePath": "_content/Example.Api",
+  "Mode": "Default",
+  "ManifestType": "Publish",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
