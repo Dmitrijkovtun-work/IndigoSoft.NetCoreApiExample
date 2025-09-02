@@ -1,7 +1,8 @@
-﻿using Example.Infrastructure.AccountService;
+﻿using Example.Application.UseCases.Login;
+using Example.Infrastructure.AccountService;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
-using System.Threading.Tasks;
+
 
 namespace Example.Api.Controllers
 {
@@ -10,10 +11,15 @@ namespace Example.Api.Controllers
     public class AccountController(IMediator mediator) : ControllerBase
     {
         [HttpPost]
-        public async Task<IActionResult> Login(LoginDto credentials)
+        public async Task<IActionResult> Login(LoginRequest credentials)
         {
-            var _ = await mediator.Send(credentials);
-            return Ok(credentials);
+            // Черновая версия
+            /*
+                var creds = await mediator.Send(credentials);
+                return Ok(creds);
+            */
+            
+            throw new NotImplementedException();
         }
     }
 }

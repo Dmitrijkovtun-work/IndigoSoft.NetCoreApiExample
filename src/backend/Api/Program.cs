@@ -1,5 +1,10 @@
-using Serilog;
+using Example.Application.DTOs;
+using Example.Application.Services;
+using Example.Domain.Services;
 using Example.Infrastructure.LogService;
+using Serilog;
+using System.Diagnostics.Metrics;
+using System.Threading.Channels;
 
 namespace Example.Api;
 public class Program
@@ -52,6 +57,10 @@ public class Program
 
     static void RegisteringCustomServices(IServiceCollection services)
     {
-
+        services.AddSingleton(Channel.CreateBounded<IncomeSlicePacket>(1));
+        services.AddHostedService<SlicesProducer>();
+        services.AddHostedService<SliceCollector>();
+        services.AddSingleton<ExampleTaskPlanner>();
+        services.AddSingleton<SliceProcessor>();
     }
 }

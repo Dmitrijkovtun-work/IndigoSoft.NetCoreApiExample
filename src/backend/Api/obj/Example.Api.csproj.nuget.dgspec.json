@@ -1,40 +1,45 @@
 {
   "format": 1,
   "restore": {
-    "/mnt/d/progs/IndigoSoft.NetCoreApiExample/src/backend/Api/Example.Api.csproj": {}
+    "D:\\progs\\IndigoSoft.NetCoreApiExample\\src\\backend\\Api\\Example.Api.csproj": {}
   },
   "projects": {
-    "/mnt/d/progs/IndigoSoft.NetCoreApiExample/src/backend/Api/Example.Api.csproj": {
+    "D:\\progs\\IndigoSoft.NetCoreApiExample\\src\\backend\\Api\\Example.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/mnt/d/progs/IndigoSoft.NetCoreApiExample/src/backend/Api/Example.Api.csproj",
+        "projectUniqueName": "D:\\progs\\IndigoSoft.NetCoreApiExample\\src\\backend\\Api\\Example.Api.csproj",
         "projectName": "Example.Api",
-        "projectPath": "/mnt/d/progs/IndigoSoft.NetCoreApiExample/src/backend/Api/Example.Api.csproj",
-        "packagesPath": "/home/dmitry/.nuget/packages/",
-        "outputPath": "/mnt/d/progs/IndigoSoft.NetCoreApiExample/src/backend/Api/obj/",
+        "projectPath": "D:\\progs\\IndigoSoft.NetCoreApiExample\\src\\backend\\Api\\Example.Api.csproj",
+        "packagesPath": "C:\\Users\\Professional\\.nuget\\packages\\",
+        "outputPath": "D:\\progs\\IndigoSoft.NetCoreApiExample\\src\\backend\\Api\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/home/dmitry/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Professional\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "/usr/lib/dotnet/library-packs": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/mnt/d/progs/IndigoSoft.NetCoreApiExample/src/backend/Application/Example.Application.csproj": {
-                "projectPath": "/mnt/d/progs/IndigoSoft.NetCoreApiExample/src/backend/Application/Example.Application.csproj"
+              "D:\\progs\\IndigoSoft.NetCoreApiExample\\src\\backend\\Application\\Example.Application.csproj": {
+                "projectPath": "D:\\progs\\IndigoSoft.NetCoreApiExample\\src\\backend\\Application\\Example.Application.csproj"
               },
-              "/mnt/d/progs/IndigoSoft.NetCoreApiExample/src/backend/Domain/Example.Domain.csproj": {
-                "projectPath": "/mnt/d/progs/IndigoSoft.NetCoreApiExample/src/backend/Domain/Example.Domain.csproj"
+              "D:\\progs\\IndigoSoft.NetCoreApiExample\\src\\backend\\Domain\\Example.Domain.csproj": {
+                "projectPath": "D:\\progs\\IndigoSoft.NetCoreApiExample\\src\\backend\\Domain\\Example.Domain.csproj"
               },
-              "/mnt/d/progs/IndigoSoft.NetCoreApiExample/src/backend/Example.Infrastructure/Example.Infrastructure.csproj": {
-                "projectPath": "/mnt/d/progs/IndigoSoft.NetCoreApiExample/src/backend/Example.Infrastructure/Example.Infrastructure.csproj"
+              "D:\\progs\\IndigoSoft.NetCoreApiExample\\src\\backend\\Example.Infrastructure\\Example.Infrastructure.csproj": {
+                "projectPath": "D:\\progs\\IndigoSoft.NetCoreApiExample\\src\\backend\\Example.Infrastructure\\Example.Infrastructure.csproj"
               }
             }
           }
@@ -49,7 +54,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
@@ -87,20 +92,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[8.0.15, 8.0.15]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.linux-x64",
-              "version": "[8.0.15, 8.0.15]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[8.0.15, 8.0.15]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -109,33 +100,45 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/9.0.105/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/mnt/d/progs/IndigoSoft.NetCoreApiExample/src/backend/Application/Example.Application.csproj": {
+    "D:\\progs\\IndigoSoft.NetCoreApiExample\\src\\backend\\Application\\Example.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/mnt/d/progs/IndigoSoft.NetCoreApiExample/src/backend/Application/Example.Application.csproj",
+        "projectUniqueName": "D:\\progs\\IndigoSoft.NetCoreApiExample\\src\\backend\\Application\\Example.Application.csproj",
         "projectName": "Example.Application",
-        "projectPath": "/mnt/d/progs/IndigoSoft.NetCoreApiExample/src/backend/Application/Example.Application.csproj",
-        "packagesPath": "/home/dmitry/.nuget/packages/",
-        "outputPath": "/mnt/d/progs/IndigoSoft.NetCoreApiExample/src/backend/Application/obj/",
+        "projectPath": "D:\\progs\\IndigoSoft.NetCoreApiExample\\src\\backend\\Application\\Example.Application.csproj",
+        "packagesPath": "C:\\Users\\Professional\\.nuget\\packages\\",
+        "outputPath": "D:\\progs\\IndigoSoft.NetCoreApiExample\\src\\backend\\Application\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/home/dmitry/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Professional\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "/usr/lib/dotnet/library-packs": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "D:\\progs\\IndigoSoft.NetCoreApiExample\\src\\backend\\Domain\\Example.Domain.csproj": {
+                "projectPath": "D:\\progs\\IndigoSoft.NetCoreApiExample\\src\\backend\\Domain\\Example.Domain.csproj"
+              },
+              "D:\\progs\\IndigoSoft.NetCoreApiExample\\src\\backend\\Example.Infrastructure\\Example.Infrastructure.csproj": {
+                "projectPath": "D:\\progs\\IndigoSoft.NetCoreApiExample\\src\\backend\\Example.Infrastructure\\Example.Infrastructure.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -148,7 +151,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
@@ -161,6 +164,10 @@
             "Serilog.AspNetCore": {
               "target": "Package",
               "version": "[9.0.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[8.14.0, )"
             }
           },
           "imports": [
@@ -174,42 +181,37 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[8.0.15, 8.0.15]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[8.0.15, 8.0.15]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/9.0.105/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/mnt/d/progs/IndigoSoft.NetCoreApiExample/src/backend/Domain/Example.Domain.csproj": {
+    "D:\\progs\\IndigoSoft.NetCoreApiExample\\src\\backend\\Domain\\Example.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/mnt/d/progs/IndigoSoft.NetCoreApiExample/src/backend/Domain/Example.Domain.csproj",
+        "projectUniqueName": "D:\\progs\\IndigoSoft.NetCoreApiExample\\src\\backend\\Domain\\Example.Domain.csproj",
         "projectName": "Example.Domain",
-        "projectPath": "/mnt/d/progs/IndigoSoft.NetCoreApiExample/src/backend/Domain/Example.Domain.csproj",
-        "packagesPath": "/home/dmitry/.nuget/packages/",
-        "outputPath": "/mnt/d/progs/IndigoSoft.NetCoreApiExample/src/backend/Domain/obj/",
+        "projectPath": "D:\\progs\\IndigoSoft.NetCoreApiExample\\src\\backend\\Domain\\Example.Domain.csproj",
+        "packagesPath": "C:\\Users\\Professional\\.nuget\\packages\\",
+        "outputPath": "D:\\progs\\IndigoSoft.NetCoreApiExample\\src\\backend\\Domain\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/home/dmitry/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Professional\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "/usr/lib/dotnet/library-packs": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -228,7 +230,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
@@ -250,42 +252,37 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[8.0.15, 8.0.15]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[8.0.15, 8.0.15]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/9.0.105/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/mnt/d/progs/IndigoSoft.NetCoreApiExample/src/backend/Example.Infrastructure/Example.Infrastructure.csproj": {
+    "D:\\progs\\IndigoSoft.NetCoreApiExample\\src\\backend\\Example.Infrastructure\\Example.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/mnt/d/progs/IndigoSoft.NetCoreApiExample/src/backend/Example.Infrastructure/Example.Infrastructure.csproj",
+        "projectUniqueName": "D:\\progs\\IndigoSoft.NetCoreApiExample\\src\\backend\\Example.Infrastructure\\Example.Infrastructure.csproj",
         "projectName": "Example.Infrastructure",
-        "projectPath": "/mnt/d/progs/IndigoSoft.NetCoreApiExample/src/backend/Example.Infrastructure/Example.Infrastructure.csproj",
-        "packagesPath": "/home/dmitry/.nuget/packages/",
-        "outputPath": "/mnt/d/progs/IndigoSoft.NetCoreApiExample/src/backend/Example.Infrastructure/obj/",
+        "projectPath": "D:\\progs\\IndigoSoft.NetCoreApiExample\\src\\backend\\Example.Infrastructure\\Example.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\Professional\\.nuget\\packages\\",
+        "outputPath": "D:\\progs\\IndigoSoft.NetCoreApiExample\\src\\backend\\Example.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/home/dmitry/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Professional\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "/usr/lib/dotnet/library-packs": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -304,7 +301,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
@@ -330,22 +327,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[8.0.15, 8.0.15]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[8.0.15, 8.0.15]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/9.0.105/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
