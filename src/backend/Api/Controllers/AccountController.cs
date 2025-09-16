@@ -18,7 +18,7 @@ namespace Example.Api.Controllers
                 var creds = await mediator.Send(credentials);
                 return Ok(creds);
             */
-            
+
             throw new NotImplementedException();
         }
     }

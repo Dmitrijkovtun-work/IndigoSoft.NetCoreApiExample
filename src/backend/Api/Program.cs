@@ -3,7 +3,6 @@ using Example.Application.Services;
 using Example.Domain.Services;
 using Example.Infrastructure.LogService;
 using Serilog;
-using System.Diagnostics.Metrics;
 using System.Threading.Channels;
 
 namespace Example.Api;

@@ -10,6 +10,7 @@ namespace Example.Application.Services;
 /// </summary>
 /// <param name="channel"></param>
 /// <param name="logger"></param>
+
 public class SlicesProducer(Channel<IncomeSlicePacket> channel, ILogger<SlicesProducer> logger): BackgroundService
 {
     const int ProduceTimeOut = 1000;
@@ -17,7 +18,7 @@ public class SlicesProducer(Channel<IncomeSlicePacket> channel, ILogger<SlicesPr
     protected override async Task ExecuteAsync(CancellationToken stoppingToken)
     {
         logger.LogInformation($"{DateTime.UtcNow} - Background producer task running...");
-        
+
         var rand = new Random();
         while (!stoppingToken.IsCancellationRequested)
         {
@@ -35,7 +36,7 @@ public class SlicesProducer(Channel<IncomeSlicePacket> channel, ILogger<SlicesPr
                 Slice = [.. arr]
             };
 
-            CancellationTokenSource sendCt = new (ProduceTimeOut);
+            using CancellationTokenSource sendCt = new (ProduceTimeOut);
             try
             {
                 await channel.Writer.WriteAsync(packet, sendCt.Token);

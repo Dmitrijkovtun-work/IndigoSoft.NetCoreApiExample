@@ -26,7 +26,7 @@ public class SliceCollector(Channel<IncomeSlicePacket> channel, ILogger<SlicesPr
 
         while (!stoppingToken.IsCancellationRequested)
         {
-            CancellationTokenSource readCt = new(CollectTimeOut);
+            using CancellationTokenSource readCt = new(CollectTimeOut);
             try
             {
                 var incomePacket = await channel.Reader.ReadAsync(readCt.Token);
