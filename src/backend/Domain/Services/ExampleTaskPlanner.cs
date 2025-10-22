@@ -9,7 +9,6 @@ public class ExampleTaskPlanner(ILogger<ExampleTaskPlanner> logger)
     readonly ConcurrentDictionary<Guid, (Task, CancellationToken)> tasks = [];
     const int count = 5;
     const int maxTime = 1000;
-
     private CancellationTokenSource? mainCts = null;
 
     /// <summary>
@@ -28,7 +27,7 @@ public class ExampleTaskPlanner(ILogger<ExampleTaskPlanner> logger)
             return null;
         }
         
-        var cts = new CancellationTokenSource(maxTime);
+        using var cts = new CancellationTokenSource(maxTime);
 
         var startedTask = Task.Run(async () => {
             try
@@ -42,7 +41,6 @@ public class ExampleTaskPlanner(ILogger<ExampleTaskPlanner> logger)
                 logger.LogError(exception: ex, message: "Inside planed task process");
             }
             }, cts.Token);
-
 
         if (!tasks.TryAdd(packet.Id, (startedTask, cts.Token)))
         {
