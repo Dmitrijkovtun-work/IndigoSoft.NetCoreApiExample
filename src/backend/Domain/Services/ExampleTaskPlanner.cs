@@ -27,7 +27,7 @@ public class ExampleTaskPlanner(ILogger<ExampleTaskPlanner> logger)
             return null;
         }
         
-        using var cts = new CancellationTokenSource(maxTime);
+        var cts = new CancellationTokenSource(maxTime);
 
         var startedTask = Task.Run(async () => {
             try
